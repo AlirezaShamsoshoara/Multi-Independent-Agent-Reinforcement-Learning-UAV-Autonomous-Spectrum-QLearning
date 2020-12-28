@@ -403,14 +403,14 @@ for Run in range(0, num_Run):
             plt.show(block=False)
 
     if General.get('SaveOutput'):
-        path_save = 'SimulationData/sensor2019/Mode_%d/Grid_Size_%d' % (General.get('Mode'), Size)
+        path_save = 'SimulationData/Mode_%d/Grid_Size_%d' % (General.get('Mode'), Size)
         if not os.path.exists(path_save):
             os.makedirs(path_save)
 
         # outputFile_win = 'C:\SimulationData\Out_greedy_Size_%d_Run_%d_Eps_%d_Step_%d.npz' % (Size, Run, num_Eps,
         # num_Step)
         outputFile_linux = \
-            'SimulationData/sensor2019/Mode_%d/Grid_Size_%d/Out_UAV_%d_greedy_Size_%d_Region_%d_Run_%d_' \
+            'SimulationData/Mode_%d/Grid_Size_%d/Out_UAV_%d_greedy_Size_%d_Region_%d_Run_%d_' \
             'Eps_%d_Step_%d.npz' % (General.get('Mode'), Size, num_UAV, Size, Region, Run, num_Eps, num_Step)
 
         np.savez(outputFile_linux, u_network=u_network, sum_utility=sum_utility, reward=reward, X_Mat=X_Mat,

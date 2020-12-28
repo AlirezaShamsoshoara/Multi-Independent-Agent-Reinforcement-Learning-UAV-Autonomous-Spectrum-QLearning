@@ -66,7 +66,7 @@ def first_part():
 
         for Run in Run_list:
             outputfile =\
-                'SimulationData/sensor2019/Mode_0/Grid_Size_%d/Out_UAV_%d_greedy_Size_%d_Region_%d_Run_%d_Eps_%d' \
+                'SimulationData/Mode_0/Grid_Size_%d/Out_UAV_%d_greedy_Size_%d_Region_%d_Run_%d_Eps_%d' \
                 '_Step_%d.npz'\
                 % (Size_list[Size], num_UAV, Size_list[Size], Region_list[Size], Run, num_Eps, Step_list[Size])
             readfile = np.load(outputfile)
@@ -330,7 +330,7 @@ def first_part():
 
         for Run in Run_list:
             outputfile =\
-                'SimulationData/sensor2019/Mode_0/Grid_Size_%d/Out_UAV_%d_greedy_Size_%d_Region_%d_Run_%d_Eps_%d' \
+                'SimulationData/Mode_0/Grid_Size_%d/Out_UAV_%d_greedy_Size_%d_Region_%d_Run_%d_Eps_%d' \
                 '_Step_%d.npz'\
                 % (Size_list[Size], num_UAV, Size_list[Size], Region_list[Size], Run, num_Eps, Step_list[Size])
             readfile = np.load(outputfile)
@@ -598,7 +598,7 @@ def second_part():
         for Mode in Mode_list:
             for Run in Run_list:
                 outputfile = \
-                    'SimulationData/sensor2019/Mode_%d/Grid_Size_%d/Out_UAV_%d_greedy_Size_%d_Region_%d_Run_%d_Eps_%d' \
+                    'SimulationData/Mode_%d/Grid_Size_%d/Out_UAV_%d_greedy_Size_%d_Region_%d_Run_%d_Eps_%d' \
                     '_Step_%d.npz' % (Mode, Size_list[Size], num_UAV, Size_list[Size], Region_list[Size],
                                       Run, num_Eps, Step_list[Size])
                 readfile = np.load(outputfile)
