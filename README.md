@@ -35,11 +35,11 @@ python main.py
 * matplotlib.pyplot
 
 ## Results
-<!--- 
-![Alt text](/image/throughput.JPG)
-![Alt text](/image/movement.JPG)
-![Alt text](/image/table.JPG)
---->
+![Alt text](/images/result1.JPG)
+![Alt text](/images/result2.JPG)
+![Alt text](/images/result3.JPG)
+![Alt text](/images/result4.JPG)
+
 
 
 ## Citation
