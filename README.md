@@ -12,7 +12,8 @@ Abstract: This paper studies the problem of spectrum shortage in an unmanned aer
 
 ## Code
 This code is run and tested on Python 3.6 on both linux machine with no issues. There is a config file in this directoy which shows all the configuration parameters such as transmit power, the grid size, number of steps, number of epochs, number of runs, number of UAVs, number of regions, etc. The number of UAVs in this study is variable. You can simply run the main.py file to run the code. It doesn't need any input argument, all you need to configure is available in the config.py. All dependency files are available in the root directory of this repository. You can change the Mode of this code with a variable "Mode" in the config file. Here are five possible options for this program:<br/>
-  ***** Modes ==>  0: Normal: Search primary region, search primary uav, search secondary regions + UAVs + RL<br/>
+  Modes ==> <br/>
+  *****            0: Normal: Search primary region, search primary uav, search secondary regions + UAVs + RL<br/>
   *****            1: Search Primary/Secondary regions + random UAV allocation + RL<br/>
   *****            2: Random Region assignment + Random UAV Allocation + RL<br/>
   *****            3: Random Region assignment + base-station UAV selection + RL<br/>
