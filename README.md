@@ -31,11 +31,11 @@ python main.py
 
 ## Required Packages
 * os
-* copy
 * time
+* copy
+* Scipy
 * match
 * Numpy
-* Scipy
 * Random
 * matplotlib.pyplot
 
