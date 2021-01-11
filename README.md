@@ -19,7 +19,11 @@ This code is run and tested on Python 3.6 on both linux machine with no issues. 
   *****            3: Random Region assignment + base-station UAV selection + RL<br/>
   *****            4: Base-station Region assignment + Base-station UAV selection + Random actions(not RL)<br/>
 
-The proposed approach in our paper is Mode 0. Other modes are used for the comparison. Runing the main file will run the app:
+The proposed approach in our paper is Mode 0. Other modes are used for the comparison. To change the Mode to 0, please change the Mode value from the **Config_General** dictionary to 0. You can change the value here, [Change This](https://github.com/AlirezaShamsoshoara/Multi-Independent-Agent-Reinforcement-Learning-UAV-Autonomous-Spectrum-QLearning/blob/6f3c7603f2561d992d46b9a1d1b896bd3d8d84ab/config.py#L9). The changed value should be similiar to this:
+```
+Config_General = {..., 'Mode': 0}
+```
+Runing the main file will run the app:
 
 ```
 python main.py
